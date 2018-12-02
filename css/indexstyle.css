@@ -1,0 +1,76 @@
+@font-face{
+	font-family: 'Manga Temple';
+	src: url("fonts/mangat.ttf");
+}
+html,body,section{
+	height: 100%;
+}
+
+body{
+	color: #fff;
+	text-align: center;
+}
+.container{
+	display: flex;
+}
+div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.left{
+	background-image: url("img/kirito.jpg");
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+	opacity: 0.9;
+}
+.right{
+	background-image: url("img/manga.jpg");
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+	opacity: 0.9;
+}
+.right:hover, .left:hover{
+	transform: scale(0.95);
+	opacity: 1;
+}
+
+.left h1{
+	font-family: 'Manga Temple';
+	font-weight: bold;
+	font-size: 6rem;
+	text-shadow: 5px 5px #335AFF;
+}
+.right h1{
+	font-family: 'Manga Temple';
+	font-weight: bold;
+	font-size: 6rem;
+	text-shadow: 5px 5px #335AFF;
+}
+.button{
+	border-radius: 30px;
+	color: #fff;
+	background-color: #fcad26;
+	padding-left: 0.5%;
+	margin: 0 2%;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Manga Temple';
+	font-weight: bold;
+	display: inline-block;
+	font-size: 1.5rem;
+	cursor: pointer;
+	transition: all 0.3s;
+	width: 150px;
+}
+.button:hover{
+	background: #fcc567;
+	color: #fff;
+}
