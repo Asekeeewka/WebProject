@@ -20,7 +20,7 @@ div{
 }
 
 .left{
-	background-image: url("img/kirito.jpg");
+	background-image: url("../img/kirito.jpg");
 	background-size: cover;
 	background-position: center;
 	flex: 1;
@@ -29,7 +29,7 @@ div{
 	opacity: 0.9;
 }
 .right{
-	background-image: url("img/manga.jpg");
+	background-image: url("../img/manga.jpg");
 	background-size: cover;
 	background-position: center;
 	flex: 1;
@@ -46,13 +46,13 @@ div{
 	font-family: 'Manga Temple';
 	font-weight: bold;
 	font-size: 6rem;
-	text-shadow: 5px 5px #335AFF;
+	text-shadow: 9px 8px 15px #ff334f;
 }
 .right h1{
 	font-family: 'Manga Temple';
 	font-weight: bold;
 	font-size: 6rem;
-	text-shadow: 5px 5px #335AFF;
+	text-shadow: 9px 8px 15px #335AFF;
 }
 .button{
 	border-radius: 30px;
